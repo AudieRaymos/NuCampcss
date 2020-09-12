@@ -1,10 +1,5 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: cadetblue;
-}
-
-h1 {
-    color: purple; 
 }
 
 legend {
@@ -33,4 +28,8 @@ input[type="submit"] {
 
 div:hover {
     color: blue;
+}
+
+div {
+    padding: 3px;
 }
