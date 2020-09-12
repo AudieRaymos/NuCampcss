@@ -7,13 +7,28 @@
 </head>
 <body>
     
-    <h1>Enter Your Details For Our Dating Website</h1>
+<h1>Enter Your Details For Our Dating Website</h1>
     <fieldset>
-    <legend>Your Face</legend>
-        <div><input type="file" id="avatar" name="avatar", required><label for="avatar">Upload your image</label></div>
+        <legend>Your Face</legend>
+        <div>
+            <label for="avatar">Upload your image</label>
+            <input type="file" id="avatar" name="avatar", required>
+        </div>
         Image Preview: <img id="preview", width="500">
     </fieldset> 
         
+    <fieldset>
+        <legend>Your Details</legend>
+        <div>
+            <label for="name">Name</label> 
+            <input type="text" id="name" name="name" placeholder="Your Full Name", required>
+        </div>
+
+        <div>
+            <label>Gender</label>
+            <input type="radio" id="woman" name="gender" value="women" required>
+        </div>
+    </fieldset>
 
 </body>
 </html>
