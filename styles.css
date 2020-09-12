@@ -1,5 +1,10 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+}
+
+h1 {
+    color: purple; 
 }
 
 legend {
